@@ -9,7 +9,7 @@ on:
 jobs:
   test:
     runs-on: ${{ matrix.os }}
-    straegy:
+    strategy:
       matrix:
         os: [ ubuntu-latest, windows-latet, macOs-latest ]
     steps:
